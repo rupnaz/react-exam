@@ -1,0 +1,123 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.card__page{
+    width: 414px;
+    height: 896px;
+    padding: 16px;
+    
+}
+
+.card__page-title{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card__page-title h1{
+    font-size: 35px;
+    margin-bottom: 1rem;
+}
+
+.card__page-title p{
+    color: rgba(34, 34, 34, 0.6);
+    font-size: 12px;
+    margin-bottom: 0.5rem;
+}
+
+.card{
+    background-color: #D0D0D0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    border-radius: 8px;
+    font-family: 'PT Mono';
+    margin-bottom: 2rem;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.10);
+
+}
+
+.card--NINJA{
+    background-color: rgb(27, 23, 31);
+}
+.card--EVIL{
+    background-color: rgb(207, 100, 100);
+}
+.card--BLOCK{
+    background-color: rgb(133, 90, 177);
+}
+.card--BITCOIN{
+    background-color: rgb(199, 177, 77);
+}
+
+.card__top, .card__bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__number{
+    font-size: 29px;
+    text-align: center;   
+    letter-spacing: 0.03em;
+}
+
+.card__number p{
+    margin: 13px 0 16px;
+}
+
+.card__bottom{
+    text-transform: uppercase;
+}
+
+.card__bottom-right{
+    text-align: right;
+}
+
+.card__top-left svg{
+    display: block;
+    margin: 0 auto;
+}
+
+.card__bottom p{
+    font-size: 18px;
+    margin: 0;
+    
+}
+
+.card__bottom span{
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.card__number{
+    width: 100%;
+}
+.number{
+
+    height: 42px;
+    font-family: 'PT Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 32px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.card__page{
+    width: 414px;
+    height: 896px;
+    padding: 16px;
+    
+}
+
+.card__name{
+    justify-items:flex-start;
+}
+
+.chip rect{
+    fill: rgba(0, 0, 0, 0.1);
+}
+

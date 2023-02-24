@@ -1,0 +1,19 @@
+.button{
+    width: 382px;
+    background-color: black;
+    margin-left: 1rem;
+}
+
+.cardButton{
+    text-transform: uppercase;
+    color: white;
+}
+
+.white{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.black{
+    background-color: black;
+}
